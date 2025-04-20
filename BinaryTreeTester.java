@@ -14,10 +14,10 @@ public class BinaryTreeTester {
         sc.close();
         if( input.equals("1") || input.equals("") ) task1();
         if( input.equals("2") || input.equals("") ) task2();
-        //  if( input.equals("3") || input.equals("") ) task3();
+         if( input.equals("3") || input.equals("") ) task3();
          if( input.equals("4") || input.equals("") ) task4();
-        //  if( input.equals("5") || input.equals("") ) task5();
-        //  if( input.equals("6") || input.equals("") ) task6();
+         if( input.equals("5") || input.equals("") ) task5();
+         if( input.equals("6") || input.equals("") ) task6();
 
         System.out.println(cyan+"\n===================== TheEnd ===================="+endFormat);
     }

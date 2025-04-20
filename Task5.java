@@ -7,7 +7,7 @@ public class Task5 {
     // At times you may need to typeCast root.elem to Integer
     // You can use extra helper private static methods with extra params as per need
     public static Integer subtractSummation( BTNode root ){
-        return (Integer) sum(root.left)- (Integer)sum(root.right);
+        return  sum(root.left)- sum(root.right);
     }
     private static int sum(BTNode rt){
         if(rt==null){
